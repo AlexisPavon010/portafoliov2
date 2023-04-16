@@ -108,7 +108,7 @@
 }
 
 .about {
-  padding-top: 20px;
+  padding: 20px;
   position: relative;
   color: white;
 }
@@ -199,19 +199,27 @@
   transition: .15s ease-in-out;
 }
 
+.works__card_item_nest:hover {
+  background-color: #e0234e;
+}
+
+.works__card_item_ant:hover {
+  background-color: #1677ff;
+}
+
 .works__card_item_green:hover {
   background-color: #00b87c;
 }
 
-.works__card_item_yellow:hover {
+.works__card_item_html:hover {
   background-color: #d59700;
 }
 
-.works__card_item_pink:hover {
+.works__card_item_sass:hover {
   background-color: #cf649a;
 }
 
-.works__card_item_blue:hover {
+.works__card_item_react:hover {
   background-color: #5ed3f3;
 }
 

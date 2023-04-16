@@ -47,8 +47,8 @@ export const Header = () => {
         }}
         className={styles.header__left}
       >
-        <SocialIcon network='email' bgColor='gray' fgColor='white' target='_blank' />
-        <a href="https://www.canva.com/design/DAEKlv9vepk/5O5dai-_IYcdm9qAIsSmOA/view?utm_content=DAEKlv9vepk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target='_blank'>
+        <SocialIcon network='email' bgColor='none' fgColor='white' target='_blank' />
+        <a href="./Alexis Pavon.pdf" download>
           <img className={styles.header__icon_img} src="/cv.png" alt="" />
         </a>
       </motion.div>
