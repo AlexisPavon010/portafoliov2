@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { useTypewriter } from 'react-simple-typewriter'
 
@@ -14,7 +15,7 @@ export const Hero = () => {
     <main>
       <div className={styles.home}>
         <div className={styles.home__perfil}>
-          <img className={styles.hero__perfil_img} src="/perfil.jpg" alt="" />
+          <Image className={styles.hero__perfil_img} src="/perfil.jpg" alt="Foto de perfil" width={200} height={200} />
           <div className={styles.hero__perfil_wrapper}>
             <h1 className={styles.hero__perfil_text}>Alexis Pavón</h1>
             <p className={styles.hero__perfil_description}>
