@@ -58,8 +58,8 @@ export const Works = () => {
     <div className={styles.works}>
       <h3 className={styles.works__text}>Proyectos</h3>
       <div className={styles.works__wrapper}>
-        {data.map((props) => (
-          <Card {...props} />
+        {data.map((props, i) => (
+          <Card key={i} {...props} />
         ))}
       </div>
     </div>

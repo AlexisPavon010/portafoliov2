@@ -10,8 +10,8 @@ export const Card = ({ name, url, date, repository, description, technologies }:
         {description}
       </p>
       <div className={styles.works__card_list}>
-        {technologies.map((t: string) => (
-          <div className={`${styles.works__card_item} ${styles[`works__card_item_${t}`]}`}>
+        {technologies.map((t: string, i: number) => (
+          <div key={i} className={`${styles.works__card_item} ${styles[`works__card_item_${t}`]}`}>
             {t.toUpperCase()}
           </div>
         ))}
