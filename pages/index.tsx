@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import dynamic from 'next/dynamic';
 import Head from 'next/head'
 
 import styles from '../styles/main.module.scss'
@@ -7,6 +8,11 @@ import { Hero } from '../Components/Hero'
 import { About } from '../Components/About'
 import { Works } from '../Components/Works'
 import { Technologies } from '../Components/Technologies'
+
+const StarsCanvasComponent = dynamic(() => import('../Components/Background_Stars')
+  .then((mod) => mod.StarsCanvas), {
+  ssr: false,
+});
 
 const Home: NextPage = () => {
   return (
@@ -26,6 +32,7 @@ const Home: NextPage = () => {
         <About />
         <Works />
         <Technologies />
+        <StarsCanvasComponent />
       </div >
     </>
   )
