@@ -12,42 +12,40 @@ export const Hero = () => {
   })
 
   return (
-    <main>
-      <div className={styles.home}>
-        <div className={styles.home__perfil}>
-          <Image className={styles.hero__perfil_img} src="/perfil.jpg" alt="Foto de perfil" width={200} height={200} />
-          <div className={styles.hero__perfil_wrapper}>
-            <h1 className={styles.hero__perfil_text}>Alexis Pavón</h1>
-            <p className={styles.hero__perfil_description}>
-              {`''${text}`}
-            </p>
-          </div>
+    <div className={styles.home}>
+      <div className={styles.home__perfil}>
+        <Image className={styles.hero__perfil_img} src="/perfil.jpg" alt="Foto de perfil" width={200} height={200} />
+        <div className={styles.hero__perfil_wrapper}>
+          <h1 className={styles.hero__perfil_text}>Alexis Pavón</h1>
+          <p className={styles.hero__perfil_description}>
+            {`''${text}`}
+          </p>
         </div>
-        <motion.div
-          className={styles.hero__drone}
-          initial={{
-            x: -100,
-            y: 0,
-            opacity: 0,
-            scale: 0
-          }}
-          animate={{
-            x: 0,
-            y: 0,
-            opacity: 1,
-            scale: 1
-          }}
-          transition={{
-            duration: 2
-          }}
-        >
-          <img
-            className={styles.hero__drone_image}
-            src="/hero-drone.webp"
-            alt="drone"
-          />
-        </motion.div>
       </div>
-    </main >
+      <motion.div
+        className={styles.hero__drone}
+        initial={{
+          x: -100,
+          y: 0,
+          opacity: 0,
+          scale: 0
+        }}
+        animate={{
+          x: 0,
+          y: 0,
+          opacity: 1,
+          scale: 1
+        }}
+        transition={{
+          duration: 2
+        }}
+      >
+        <img
+          className={styles.hero__drone_image}
+          src="/hero-drone.webp"
+          alt="drone"
+        />
+      </motion.div>
+    </div>
   )
 }

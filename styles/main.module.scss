@@ -1,12 +1,14 @@
 .container {
+  position: relative;
   max-width: 1280px;
   margin: 0 auto;
+  z-index: 10;
 }
 
 .header {
   position: absolute;
   overflow: hidden;
-  z-index: 3;
+  z-index: 10;
   top: 0;
   display: flex;
   align-items: center;
@@ -157,7 +159,7 @@
   padding: 20px;
   border-radius: 6px;
   border: 2px solid #293240;
-  background-color: #19212e;
+  background-color: #19212e5c;
   display: flex;
   flex-direction: column;
   text-align: left;
