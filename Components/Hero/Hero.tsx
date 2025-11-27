@@ -6,7 +6,7 @@ import styles from '../../styles/main.module.scss'
 
 export const Hero = () => {
   const [text] = useTypewriter({
-    words: ['Curioso"', 'Sincero"', 'Full-Stack Developer"'],
+    words: ['ReactJS"', 'MongoDB"', 'NestJS"', 'Full-Stack Developer"'],
     loop: true,
     delaySpeed: 2000,
   })
