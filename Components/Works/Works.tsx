@@ -4,20 +4,20 @@ import { Card } from '../Card'
 
 const data = [
   {
+    name: 'Burger House',
+    url: 'https://burger-house-six.vercel.app/',
+    repository: 'https://github.com/AlexisPavon010/burguer-house-landing',
+    date: '24/11/2025 - 28/11/2025',
+    description: 'Landing page para restaurante de hamburguesas, con diseño responsivo y animaciones atractivas para mejorar la experiencia del usuario.',
+    technologies: ['react', 'sass', 'shadcn', 'nextjs']
+  },
+  {
     name: 'Cuatro Carnes',
     url: 'https://cuatrocarnes.com',
     repository: 'https://github.com/AlexisPavon010/cuatro-carnes',
     date: '21/02/2023 - 23/06/2023',
     description: ' Ecommerce enfocado en la venta de carnes de alta calidad. A través de nuestra plataforma, los clientes podrán realizar compras en línea de manera fácil y cómoda, seleccionando entre una amplia variedad de cortes de carne fresca, acompañamientos y productos complementarios.',
     technologies: ['nextjs', 'sass', 'ant']
-  },
-  {
-    name: 'Intercorp Marketing',
-    url: 'https://www.intercorpmarketingawards.com',
-    repository: 'https://github.com/AlexisPavon010/marketing-front',
-    date: '26/01/2023 - 27/03/2023',
-    description: 'Aplicación web que busca destacar a través de diferentes categorías de participación, a las acciones/campañas /ideas de marketing de las marcas de Intercorp que demuestran el mayor impacto en el cumplimiento de los objetivos de negocio.',
-    technologies: ['react', 'sass', 'ant', 'nest']
   },
   {
     name: 'Oasis Fundation',

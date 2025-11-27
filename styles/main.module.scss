@@ -201,6 +201,14 @@
   transition: .15s ease-in-out;
 }
 
+.works__card_item_nextjs:hover {
+  background-color: #000000;
+}
+
+.works__card_item_shadcn:hover {
+  background-color: #7c3aed;
+}
+
 .works__card_item_nest:hover {
   background-color: #e0234e;
 }
